@@ -1,0 +1,88 @@
+.mobile-nav{
+    display: none;
+}
+#navbar-menu{
+
+}
+.dropdown-user{
+    display: flex;
+}
+.container-header{
+    background-color: #F7f7f7;
+    position: fixed;
+    top:0px;
+    padding-top: 10px;
+    width: calc(100vw - 250px);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.container-header div{
+    gap: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    #navbar-menu{
+        position: fixed;
+        bottom: 0;
+        width: 100vw!important;
+        min-height: 60px!important;
+        z-index: 1;
+        padding-left: 0!important;
+        padding-right: 0!important;    
+    }
+    .container-header{    
+        width: 100vw;
+    }
+    .nav-link{
+        flex-direction: column;
+    }
+    .nav-link svg{
+        width:1.5rem;
+        height: auto;
+    }
+    .nav-link span{
+        display: none;
+    }
+    ul.nav li{
+        width: 20vw;
+    }
+    td {
+        display: flex!important;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        flex-basis: 40%;
+    }
+    tbody tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    thead tr {
+        display: none;
+    }
+    table td:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 0.05); /* Color para celdas impares */
+      }
+      table td:nth-child(even) {
+        background-color: #fff; /* Color para celdas pares */
+      }
+      .table-striped>tbody>tr:nth-of-type(odd)>*{
+        --bs-table-striped-bg: transparent;
+    }
+    .body-container{
+    margin-top: 5rem!important;
+    
+    }
+
+}
