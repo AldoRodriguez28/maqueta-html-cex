@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEX -Salesforce</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+  <div  class="d-flex flex-column flex-lg-row">    
+    <nav id="navbar-menu" class="navbar navbar-dark bg-dark flex-lg-column p-3" style="min-height: 100vh; width: 250px;">
+      
+
+        <ul class="nav nav-pills flex-lg-column flex-row mb-auto justify-content-around justify-content-lg-start">
+          <li class="nav-item">
+            <a class="nav-link text-white d-flex align-items-center gap-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29.468" height="27.283" viewBox="0 0 29.468 27.283">
+                    <path id="Inicio" d="M2.25,15.736,14.807,3.177a1.579,1.579,0,0,1,2.231,0L29.6,15.736M5.405,12.581v14.2a1.578,1.578,0,0,0,1.578,1.578h5.785V21.521a1.578,1.578,0,0,1,1.578-1.578H17.5a1.578,1.578,0,0,1,1.578,1.578v6.837h5.785a1.578,1.578,0,0,0,1.578-1.578v-14.2M10.664,28.358h11.57" transform="translate(-1.189 -1.825)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                  </svg>
+                  
+              <span>Inicio</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white d-flex align-items-center active gap-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27.14" height="27.14" viewBox="0 0 27.14 27.14">
+                    <path id="pedido" d="M19.79,18.186a7.889,7.889,0,0,1-7.679,9.7V21.579m7.679-3.392A19.7,19.7,0,0,0,27.89,2.25a19.7,19.7,0,0,0-15.935,8.1m7.837,7.837a19.626,19.626,0,0,1-7.68,3.392M11.955,10.35A7.889,7.889,0,0,0,2.25,18.028H8.561m3.394-7.679a19.627,19.627,0,0,0-3.392,7.679m3.549,3.55c-.135.028-.272.054-.409.079a19.841,19.841,0,0,1-3.219-3.219q.037-.206.079-.41M5.617,21.171a5.908,5.908,0,0,0-2.31,5.662,5.908,5.908,0,0,0,5.662-2.312m12.018-13.4a1.972,1.972,0,1,1-1.972-1.972A1.972,1.972,0,0,1,20.987,11.125Z" transform="translate(-1.5 -1.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                  </svg>                  
+              <span>Pedidos</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white d-flex align-items-center gap-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.844" height="27.14" viewBox="0 0 24.844 27.14">
+                    <path id="Trazado_9" data-name="Trazado 9" d="M19.726,13.1V7.181a4.931,4.931,0,1,0-9.862,0V13.1M24.8,10.477l1.661,15.778a1.478,1.478,0,0,1-1.471,1.634H4.6a1.479,1.479,0,0,1-1.473-1.634L4.794,10.477A1.479,1.479,0,0,1,6.265,9.153H23.324A1.479,1.479,0,0,1,24.8,10.477ZM10.357,13.1a.493.493,0,1,1-.493-.493A.493.493,0,0,1,10.357,13.1Zm9.862,0a.493.493,0,1,1-.493-.493A.493.493,0,0,1,20.219,13.1Z" transform="translate(-2.372 -1.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                  </svg>                  
+              <span>Transacciones</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white d-flex align-items-center gap-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29.628" height="40.82" viewBox="0 0 29.628 40.82">
+                    <path id="Foco" d="M18.545,32.395V22.564m0,0a11.254,11.254,0,0,0,2.809-.354m-2.809.354a11.254,11.254,0,0,1-2.809-.354m7.022,14a22.582,22.582,0,0,1-8.426,0m7.022,4.462a26.975,26.975,0,0,1-5.617,0m7.022-8.28v-.36A5.209,5.209,0,0,1,25.582,27.7a14.044,14.044,0,1,0-14.076,0,5.211,5.211,0,0,1,2.826,4.337v.36" transform="translate(-3.73 -0.752)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                  </svg>
+                  
+              <span>Estrategias</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white d-flex align-items-center gap-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27.198" height="27.203" viewBox="0 0 27.198 27.203">
+                    <path id="Trazado_13" data-name="Trazado 13" d="M14.292,19.215l7.655,7.655a3.482,3.482,0,1,0,4.924-4.924l-7.717-7.716m-4.862,4.986,3.277-3.979a3.192,3.192,0,0,1,1.586-1.006m-4.864,4.984L8.179,26.637a3.346,3.346,0,1,1-4.709-4.709l8.977-7.392m6.707-.306a6.314,6.314,0,0,1,2.289-.184,5.909,5.909,0,0,0,5.89-8.32l-4.3,4.3a3.944,3.944,0,0,1-2.954-2.954l4.3-4.3a5.909,5.909,0,0,0-8.32,5.89,4.42,4.42,0,0,1-1.187,3.874l-.134.112m-2.291,1.887L7.055,9.144H5.205L2.251,4.22l1.97-1.97L9.144,5.2v1.85l5.594,5.594m-2.291,1.887,2.291-1.887m8.686,10.775-3.447-3.447M5.687,24.408H5.7v.011H5.687Z" transform="translate(-1.473 -1.437)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                  </svg>                  
+              <span>Soporte</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    <div class="flex-grow-1">
+        <div class="container-header">
+            <div class="logo">
+                <a class="navbar-brand mb-4" href="#">LOGO</a>
+            </div>  
+            <div class="user">
+                <div class="dropdown-user">
+                     <img src="https://picsum.photos/40/40" alt="User Image"
+                    class="rounded-circle">
+                    <span>Aldo Rodriguez</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                      </svg>
+                      
+
+                </div>
+            </div>
+        </div>
+      <div class="body-container container mt-5">
+        <h1 class="mb-4">Mis Pedidos</h1>
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center mb-3 gap-5">
+          <input type="text" class="form-control w-100 w-sm-50 mb-2 mb-sm-0" placeholder="Buscar...">
+          <button class="btn btn-primary">Crear Pedido</button>
+        </div>
+
+        <div class="d-md-block table-responsive">
+          <table class="table table-striped">
+            <thead class="table-light">
+              <tr>
+                <th>Folio</th>
+                <th>Clasificación</th>
+                <th>Número de Orden</th>
+                <th>Producto</th>
+                <th>Fecha</th>
+                <th>Estatus</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="ordersTable">
+              <!-- Rows will be populated via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="d-md-none" id="mobileOrders">
+          <!-- Rows will be populated via JavaScript for mobile view -->
+        </div>
+
+        <nav>
+          <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+          </ul>
+        </nav>
+
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <canvas id="chartPromoter" class="w-100"></canvas>
+          </div>
+          <div class="col-md-4">
+            <canvas id="chartType" class="w-100"></canvas>
+          </div>
+          <div class="col-md-4">
+            <canvas id="chartProduct" class="w-100"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <footer class="bg-dark text-white text-center py-3 mt-5 fixed-lg-bottom">
+        <p>&copy; 2025 "Tu empresa". Todos los derechos reservados. Powered by <a href="#" class="text-white">ADN digital</a>.</p>
+      </footer>
+    </div>
+
+    <nav class=" mobile-nav navbar fixed-bottom navbar-dark bg-dark d-lg-none">
+        <ul class="nav nav-justified w-100">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
+                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white active" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 13a8 8 0 0 1 8 -8"></path>
+                <path d="M4 13a8 8 0 0 0 8 8"></path>
+                <line x1="4" y1="13" x2="20" y2="13"></line>
+                <line x1="4" y1="13" x2="4" y2="20"></line>
+                <line x1="20" y1="13" x2="20" y2="20"></line>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M6 9l6 -6l6 6v12a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                <path d="M12 3v6"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 18h6"></path>
+                <path d="M10 18a2 2 0 0 1 -2 -2"></path>
+                <path d="M14 18a2 2 0 0 0 2 -2"></path>
+                <path d="M12 2a7 7 0 0 1 7 7c0 4.8 -7 9 -7 9s-7 -4.2 -7 -9a7 7 0 0 1 7 -7z"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 8l3 3l3 -3l-3 -3z"></path>
+                <line x1="12" y1="12" x2="12" y2="21"></line>
+                <path d="M16 17a3 3 0 1 0 3 -3"></path>
+                <path d="M21 16a3 3 0 1 0 -3 3"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/javascript/main.js"></script>
+</body>
+</html>
